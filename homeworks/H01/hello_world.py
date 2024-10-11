@@ -7,4 +7,7 @@ def hello_world():
     Returns:
         str in the form of "Hello, World!".
     """
-    raise NotImplementedError("Hello, World! function not implemented.")
+    try:
+        return "Hello, World!"
+    except:
+        raise NotImplementedError("Hello, World! function not implemented.")
